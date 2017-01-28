@@ -1,0 +1,71 @@
+/*
+Error: Undefined variable: "$thumbnail-padding".
+        on line 9 of sass/bootstrap/thumbnails.scss
+
+4: 
+5: 
+6: // Mixin and adjust the regular image class
+7: .thumbnail {
+8:   display: block;
+9:   padding: $thumbnail-padding;
+10:   margin-bottom: $line-height-computed;
+11:   line-height: $line-height-base;
+12:   background-color: $thumbnail-bg;
+13:   border: 1px solid $thumbnail-border;
+14:   border-radius: $thumbnail-border-radius;
+
+Backtrace:
+sass/bootstrap/thumbnails.scss:9
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/Liam/.gem/ruby/2.2.2/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/Users/Liam/.gem/ruby/2.2.2/bin/sass:23:in `load'
+/Users/Liam/.gem/ruby/2.2.2/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$thumbnail-padding\".\A         on line 9 of sass/bootstrap/thumbnails.scss\A \A 4: \A 5: \A 6: // Mixin and adjust the regular image class\A 7: .thumbnail {\A 8:   display: block;\A 9:   padding: $thumbnail-padding;\A 10:   margin-bottom: $line-height-computed;\A 11:   line-height: $line-height-base;\A 12:   background-color: $thumbnail-bg;\A 13:   border: 1px solid $thumbnail-border;\A 14:   border-radius: $thumbnail-border-radius;"; }
